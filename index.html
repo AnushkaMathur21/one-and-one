@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR SENTINAL:- A Security that everyone demands</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="carsentinal-styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Animated Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Animated Shapes -->
+    <div class="shapes-container">
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-triangle"></div>
+        <div class="shape shape-square"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF5E00;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00B2FF;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="20,2 38,14 38,26 20,38 2,26 2,14" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="20,8 32,16 32,24 20,32 8,24 8,16" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="logo-text">NEUROSARTHI</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="text-rotator">
+                <div class="text-set active">
+                    <h1 class="glitch-text" data-text="VEHICLE SAFTY IS HERE NOW">VEHICLE SAFETY IS HERE</h1>
+                    <p class="subtitle">Enter the next dimension of digital innovation</p>
+                </div>
+                <div class="text-set">
+                    <h1 class="glitch-text" data-text="LEAVING THEFTS BEYOND">LEAVING THEFTS BEYOND</h1>
+                    <p class="subtitle">Where technology meets security</p>
+                </div>
+                <div class="text-set">
+                    <h1 class="glitch-text" data-text="SECURING YOUR DREAMS">SECURING YOUR DREAMS</h1>
+                    <p class="subtitle">Powering tomorrow's digital revolution today</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-container">
+            <a href="#contact" class="cta-button cta-primary">Get Started</a>
+            <a href="#about" class="cta-button cta-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section with Tabs -->
+    <section class="features" id="features">
+        <h2 class="section-title">Core Features</h2>
+        <div class="features-container">
+            <div class="feature-tabs">
+                <div class="tab-item active" data-tab="performance">
+                    <span class="tab-icon">⚡</span>
+                    <span>Performance</span>
+                </div>
+                <div class="tab-item" data-tab="security">
+                    <span class="tab-icon">🔒</span>
+                    <span>Security</span>
+                </div>
+                <div class="tab-item" data-tab="Affordability">
+                    <span class="tab-icon">💳</span>
+                    <span>Affordability</span>
+                </div>
+                <div class="tab-item" data-tab="analytics">
+                    <span class="tab-icon">📊</span>
+                    <span>Analytics</span>
+                </div>
+                <div class="tab-item" data-tab="integration">
+                    <span class="tab-icon">🔧</span>
+                    <span>Integration</span>
+                </div>
+            </div>
+            <div class="feature-content">
+                <div class="content-panel active" id="performance">
+                    <h3>Lightning Fast Performance</h3>
+                    <p>Experience unprecedented security with our newest product "The CarSentinal System" which efficiently with real-time face recognition with license verification ensuring quick and accurate user verification. It integrates OTP authentication for an added security layer, reducing chances of unauthorized access. The system runs smoothly with minimal errors, offering fast response times and reliable database logging. Overall, CarSentinal demonstrates strong performance in combining security, speed, and user convenience</p>
+                    <ul class="feature-list">
+                        <li>Sub-millisecond response times</li>
+                        <li>99.99% uptime guarantee</li>
+                        <li>Cross device compatibilty</li>
+                        <li>Real-time data monitoring</li>
+                        <li>Real-time GPS tracking</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="security">
+                    <h3>Military-Grade Security</h3>
+                    <p>Your vehicle is protected by the most advanced AI protocols available. Multi-layered security ensures complete protection against vehicle thefts.</p>
+                    <ul class="feature-list">
+                        <li>Live face detection with embeddings</li>
+                        <li>OCR authentication</li>
+                        <li>Zero-knowledge architecture</li>
+                        <li>Real-time threat detection</li>
+                        <li>Automated security updates</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="Affordability">
+                    <h3>Affordability</h3>
+                    <p>CarSentinal is designed to be both secure and affordable, making advanced vehicle protection accessible to everyone. Its
+                    cost-effective setup and low maintenance needs ensure high value for customers while keeping ownership expenses minimal.
+                    With scalability and easy integration, it’s an ideal solution for businesses aiming to deliver smart security at an
+                    affordable price point.</p>
+                    <ul class="feature-list">
+                        <li>Within your budget</li>
+                        <li>Hands on delivery</li>
+                        <li>Zero Installation costs</li>
+                        <li>2 Years Hardware guarantee</li>
+                        <li>1 Week free demo check</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="analytics">
+                    <h3>Advanced Analytics</h3>
+                    <p>Harness the power of AI-driven insights to make data-driven decisions. Real-time analytics and predictive modeling at your fingertips.</p>
+                    <ul class="feature-list">
+                        <li>Machine learning algorithms</li>
+                        <li>Predictive analytics</li>
+                        <li>Custom dashboard creation</li>
+                        <li>Real-time data visualization</li>
+                        <li>Automated reporting</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="integration">
+                    <h3>Seamless Integration</h3>
+                    <p>CarSentinal seamlessly integrates advanced software with reliable hardware components, creating a unified security
+                    solution. This fusion ensures smooth performance, from biometric recognition to real-time vehicle access control. The
+                    strong synergy of software intelligence and hardware durability makes it a scalable, market-ready product with high
+                    commercial potential.</p>
+                    <ul class="feature-list">
+                        <li>RESTful API architecture</li>
+                        <li>Internet support</li>
+                        <li>SDK for major Registrations</li>
+                        <li>One-click integrations</li>
+                        <li>Custom webhook support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Car Sentinal</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Redefining Vehicle Security</h2>
+                <p>At CarSentinal, we’re not just building a security system — we’re shaping the future of smart mobility. Our
+                    mission is to merge advanced software intelligence with robust hardware design, creating solutions that
+                    safeguard vehicles and inspire confidence.</p>
+                <p>Driven by innovation, CarSentinal bridges the gap between cutting-edge biometrics, license plate recognition, and
+                    IoT connectivity. This seamless integration delivers a security platform that is not only reliable but also
+                    affordable and scalable for modern needs.</p>
+                <p>Join us as we transform vehicle protection into a smarter, safer, and more accessible experience. With
+                    CarSentinal, security isn’t just a feature — it’s the future we create together.</p>
+            </div>
+
+            <div class="about-visual">
+                <div class="about-graphic"></div>
+            </div>
+        </div>
+        
+        <!-- Second row with reversed layout -->
+        <div class="about-content" style="margin-top: 80px;">
+            <div class="about-visual">
+                <div class="about-graphic-alt">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Innovation at Every Level</h2>
+                <p>At CarSentinal, our pursuit of innovation drives us to reimagine vehicle security from the ground up. With a
+                    dedicated team of engineers, designers, and visionaries, we’re developing solutions that meet today’s demands
+                    while preparing for tomorrow’s challenges.</p>
+                <p>From AI-powered face recognition to intelligent license plate OCR, from seamless software control to durable
+                    hardware integration, CarSentinal stands at the forefront of smart mobility. Every feature is designed with
+                    precision to ensure safety, speed, and reliability in real-world use.</p>
+                <p>Experience the evolution of automotive protection. With CarSentinal, you’re not just investing in technology —
+                    you’re embracing a future where innovation and security move together at every level.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact Details</label>
+                        <input type="text" id="contact" name="contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Connect With Us</h3>
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div class="info-details">
+                        <h4>Email</h4>
+                        <p>contact@carsentinal.tech</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div class="info-details">
+                        <h4>Phone</h4>
+                        <p>+91 9519317275</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-details">
+                        <h4>Location</h4>
+                        <p>Head Office:- Lane no.2, Kehar Singh Estate</p>
+                        <p>Western Marg,Saket,New Delhi</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">🗺</div>
+                    <div class="info-details">
+                        <h4>We Deliver at</h4>
+                        <p>Delhi-NCR,Lucknow,Pune,Mumbai,Chandigarh,Chennai</p>
+                        <p>Nasik,Kolkata,Hyderabad,Bengaluru,Nagpur</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#careers">Careers</a>
+            </div>
+            <p> © 2025 CAR SENTINAL. All rights reserved.</p>
+            <div class="footer-links">
+            
+            <p>Design:</p><a href="https://www.linkedin.com/in/vishrut-awasthi-977b71277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="nofollow noopener">@vishrutawasthi</a>
+        </div>
+    </footer>
+<script src="carsentinal-scripts.js"></script>
+</body>
+</html>
